@@ -438,7 +438,7 @@ class Cdn
      * Order backend and return a billing order object
      *
      * @param int $nbBackend : number of backend needed
-     * @param int $duration : durtaion (in month)
+     * @param int $duration : duration (in month)
      * @return object billing order
      */
     public function orderBackend($nbBackend, $duration)
@@ -450,7 +450,7 @@ class Cdn
      * Order cache rules and return a billing order object
      *
      * @param int $nbCacheRule : number of backend needed
-     * @param int $duration : durtaion (in month)
+     * @param int $duration : duration (in month)
      * @return object billing order
      */
     public function orderCacheRule($nbCacheRule, $duration)
