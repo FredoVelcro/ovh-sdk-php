@@ -235,7 +235,7 @@ class Cdn
      * Delete a domain from CDN
      *
      * @param string $domain
-     * @return string domain
+     * @return object task
      */
     public function deleteDomain($domain)
     {
